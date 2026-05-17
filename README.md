@@ -19,3 +19,8 @@ The public snapshot intentionally excludes datasets, checkpoints, run directorie
 - boundary-aware language-model training
 - instruction-style memory prefill followed by answer scoring/generation
 - frozen-answer and live-answer memory-update evaluation modes
+
+## References
+
+- Behrouz, A., Zhong, P., & Mirrokni, V. (2024). [Titans: Learning to Memorize at Test Time](https://arxiv.org/abs/2501.00663). arXiv:2501.00663.
+- Original implementation reference: [Aedelon/titans-pytorch-mlx](https://github.com/Aedelon/titans-pytorch-mlx).
