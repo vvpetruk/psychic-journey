@@ -1,0 +1,13 @@
+[project]
+name = "memory-research"
+version = "0.1.0"
+description = "Titans-first, nested-learning-informed architecture workspace"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/memory_lab"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

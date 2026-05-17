@@ -1,0 +1,51 @@
+# Python/runtime
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Local dependency caches
+.local-debs/
+.local-python-dev/
+
+# Experiment outputs and model artifacts
+artifacts/
+runs/
+checkpoints/
+outputs/
+wandb/
+mlruns/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.jsonl
+*.log
+
+# Datasets and credentials
+datasets/
+data/
+hf_token*
+*token*.txt
+*.pem
+*.key
+
+# Local/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary backups
+*.bak
+*.bak-*
+*.tmp
